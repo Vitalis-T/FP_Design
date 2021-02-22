@@ -7,11 +7,12 @@ interesting ways. This example also shows how to build programs that do discrete
   3. Signals are represented using booleans true and false.
   
   The base components (gates) are:
-    ▶The Inverter, whose output is the inverse of its input.
-    ▶The AND Gate, whose output is the conjunction of its inputs.
-    ▶The OR Gate, whose output is the disjunction of its inputs.
+    1. The Inverter, whose output is the inverse of its input.
+    2. The AND Gate, whose output is the conjunction of its inputs.
+    3. The OR Gate, whose output is the disjunction of its inputs.
     
   The components have a reaction time (or delay), i.e. their outputs don’t change immediately after a change to their inputs.
+  
 # Implementation
   The class 'Wire' and the functions 'inverter', 'andGate', and 'orGate' represent a small description language of digital circuits.
   These implementations are based on a simple API for discrete event simulation.
