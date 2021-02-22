@@ -1,4 +1,4 @@
-package fp_design.publisher_subscriber
+package fp_design
 
 trait Publisher {
 	private var subscribers: Set[Subscriber] = Set()

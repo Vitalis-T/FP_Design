@@ -1,5 +1,4 @@
-package fp_design.BankAccount
-import fp_design.publisher_subscriber._
+package fp_design
 
 class BankAccount extends Publisher {
 	private var balance: Int = 0

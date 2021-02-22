@@ -1,7 +1,4 @@
-package fp_design.Consolidator
-import fp_design.publisher_subscriber._
-import fp_design.BankAccount._
-
+package fp_design
 
 class Consolidator(observed: List[BankAccount]) extends Subscriber {
   observed.foreach(_.subscribe(this))
