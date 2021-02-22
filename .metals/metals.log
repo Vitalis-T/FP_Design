@@ -1,0 +1,933 @@
+2021.02.22 12:50:29 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/fp_design' for client sublime.
+2021.02.22 12:50:34 INFO  time: initialize in 4.76s
+2021.02.22 12:50:36 INFO  Attempting to connect to the build server...
+2021.02.22 12:50:36 INFO  Selected port 5032
+Starting the bsp launcher for bloop...
+2021.02.22 12:50:36 WARN  no build target for: /home/vitalis/repos/fp_design/build.sbt
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6847831326306958769/bsp.socket'...
+Waiting for the bsp connection to come up...
+Feb 22, 2021 12:50:36 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Feb 22, 2021 12:50:36 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+Feb 22, 2021 12:50:36 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6847831326306958769/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6847831326306958769/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 12:50:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+Feb 22, 2021 12:50:37 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.02.22 12:50:36 INFO  time: connected to build server in 1s
+2021.02.22 12:50:36 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.02.22 12:50:37 ERROR Empty build targets. Expected at least one build target identifier.
+2021.02.22 12:50:37 ERROR Empty build targets. Expected at least one build target identifier.
+2021.02.22 12:50:37 ERROR Empty build targets. Expected at least one build target identifier.
+2021.02.22 12:50:37 INFO  time: imported build in 0.12s
+2021.02.22 12:50:37 INFO  Started Metals http server at http://127.0.0.1:5032
+2021.02.22 12:50:39 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals17963543399421921946/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2021.02.22 12:50:40 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.02.22 12:50:40 INFO  time: indexed workspace in 2.9s
+2021.02.22 12:50:40 WARN  no build target for: /home/vitalis/repos/fp_design/build.sbt
+2021.02.22 12:50:46 INFO  no build target: using presentation compiler with only scala-library
+2021.02.22 12:50:49 INFO  [info] welcome to sbt 1.4.1 (Ubuntu Java 11.0.10)
+2021.02.22 12:50:56 INFO  [info] loading settings for project fp_design-build-build from metals.sbt ...
+2021.02.22 12:50:58 INFO  [info] loading project definition from /home/vitalis/repos/fp_design/project/project
+2021.02.22 12:51:08 INFO  [info] loading settings for project fp_design-build from metals.sbt ...
+2021.02.22 12:51:08 INFO  [info] loading project definition from /home/vitalis/repos/fp_design/project
+2021.02.22 12:51:13 INFO  [success] Generated .bloop/fp_design-build.json
+2021.02.22 12:51:13 INFO  [success] Total time: 5 s, completed Feb 22, 2021, 12:51:13 PM
+2021.02.22 12:51:15 INFO  [info] loading settings for project fp_design from build.sbt ...
+2021.02.22 12:51:15 INFO  [info] set current project to fp_design (in build file:/home/vitalis/repos/fp_design/)
+2021.02.22 12:51:17 INFO  [success] Generated .bloop/fp_design-test.json
+2021.02.22 12:51:17 INFO  [success] Generated .bloop/fp_design.json
+2021.02.22 12:51:17 INFO  [success] Total time: 1 s, completed Feb 22, 2021, 12:51:17 PM
+2021.02.22 12:51:17 INFO  sbt bloopInstall exit: 0
+2021.02.22 12:51:17 INFO  time: ran 'sbt bloopInstall' in 38s
+2021.02.22 12:51:17 INFO  Disconnecting from Bloop session...
+2021.02.22 12:51:17 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.02.22 12:51:17 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3626860764753233093/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading 2 projects from '/home/vitalis/repos/fp_design/.bloop'...
+[0m[32m[D][0m Loading project from '/home/vitalis/repos/fp_design/.bloop/fp_design.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar
+[0m[32m[D][0m Loading project from '/home/vitalis/repos/fp_design/.bloop/fp_design-test.json'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3626860764753233093/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3626860764753233093/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 12:51:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 12:51:17 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5320107354595645137/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5320107354595645137/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5320107354595645137/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 12:51:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 12:51:17 INFO  time: connected to build server in 0.29s
+2021.02.22 12:51:17 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.02.22 12:51:21 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.02.22 12:51:25 INFO  time: indexed workspace in 7.57s
+2021.02.22 12:51:33 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals15649776243565393381/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2021.02.22 12:51:40 INFO  [info] welcome to sbt 1.4.1 (Ubuntu Java 11.0.10)
+2021.02.22 12:51:43 INFO  [info] loading settings for project fp_design-build-build from metals.sbt ...
+2021.02.22 12:51:46 INFO  [info] loading project definition from /home/vitalis/repos/fp_design/project/project
+2021.02.22 12:51:49 INFO  [info] loading settings for project fp_design-build from metals.sbt ...
+2021.02.22 12:51:49 INFO  [info] loading project definition from /home/vitalis/repos/fp_design/project
+2021.02.22 12:51:54 INFO  [success] Generated .bloop/fp_design-build.json
+2021.02.22 12:51:54 INFO  [success] Total time: 5 s, completed Feb 22, 2021, 12:51:54 PM
+2021.02.22 12:51:58 INFO  [info] loading settings for project fp_design from build.sbt ...
+2021.02.22 12:51:58 INFO  [info] set current project to fp_design (in build file:/home/vitalis/repos/fp_design/)
+2021.02.22 12:52:00 INFO  [success] Generated .bloop/fp_design.json
+2021.02.22 12:52:00 INFO  [success] Generated .bloop/fp_design-test.json
+2021.02.22 12:52:00 INFO  [success] Total time: 1 s, completed Feb 22, 2021, 12:52:00 PM
+2021.02.22 12:52:00 INFO  sbt bloopInstall exit: 0
+2021.02.22 12:52:00 INFO  time: ran 'sbt bloopInstall' in 27s
+2021.02.22 12:52:00 INFO  Disconnecting from Bloop session...
+2021.02.22 12:52:00 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.02.22 12:52:00 INFO No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+ Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.02.22 12:52:00 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher15683191010859080774/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/vitalis/repos/fp_design/.bloop'...
+[0m[32m[D][0m Loading project from '/home/vitalis/repos/fp_design/.bloop/fp_design-test.json'
+[0m[32m[D][0m Loading project from '/home/vitalis/repos/fp_design/.bloop/fp_design.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'fp_design', 'fp_design-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher15683191010859080774/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher15683191010859080774/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 12:52:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 12:52:00 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3880647273277938759/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3880647273277938759/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3880647273277938759/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 12:52:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 12:52:00 INFO  time: connected to build server in 0.17s
+2021.02.22 12:52:00 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.02.22 12:52:03 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.02.22 12:52:03 INFO  time: indexed workspace in 2.84s
+2021.02.22 12:52:17 INFO  compiling fp_design (7 scala sources)
+2021.02.22 12:52:30 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.02.22 12:52:30 INFO  time: compiled fp_design in 13s
+2021.02.22 12:53:45 INFO  compiling fp_design (1 scala source)
+2021.02.22 12:53:45 INFO  time: compiled fp_design in 0.69s
+2021.02.22 12:53:54 INFO  compiling fp_design (1 scala source)
+2021.02.22 12:53:54 INFO  time: compiled fp_design in 0.59s
+2021.02.22 12:54:13 INFO  compiling fp_design (2 scala sources)
+2021.02.22 12:54:13 INFO  time: compiled fp_design in 0.74s
+2021.02.22 12:54:26 INFO  compiling fp_design (2 scala sources)
+2021.02.22 12:54:26 INFO  time: compiled fp_design in 0.53s
+2021.02.22 12:54:40 INFO  compiling fp_design (2 scala sources)
+2021.02.22 12:54:40 INFO  time: compiled fp_design in 0.47s
+2021.02.22 12:54:48 INFO  compiling fp_design (2 scala sources)
+2021.02.22 12:54:48 INFO  time: compiled fp_design in 0.53s
+2021.02.22 12:54:52 INFO  compiling fp_design (2 scala sources)
+2021.02.22 12:54:54 INFO  time: compiled fp_design in 2.58s
+2021.02.22 12:54:54 INFO  compiling fp_design (1 scala source)
+2021.02.22 12:54:54 INFO  time: compiled fp_design in 0.18s
+2021.02.22 12:55:17 INFO  compiling fp_design (2 scala sources)
+2021.02.22 12:55:19 INFO  time: compiled fp_design in 2.78s
+2021.02.22 12:55:19 INFO  compiling fp_design (1 scala source)
+2021.02.22 12:55:19 INFO  time: compiled fp_design in 0.18s
+2021.02.22 12:55:54 INFO  compiling fp_design (3 scala sources)
+2021.02.22 12:55:54 INFO  time: compiled fp_design in 0.35s
+2021.02.22 12:56:24 INFO  compiling fp_design (3 scala sources)
+2021.02.22 12:56:24 INFO  time: compiled fp_design in 0.34s
+2021.02.22 12:56:34 INFO  compiling fp_design (3 scala sources)
+2021.02.22 12:56:34 INFO  time: compiled fp_design in 0.51s
+2021.02.22 12:57:06 INFO  compiling fp_design (3 scala sources)
+2021.02.22 12:57:08 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.02.22 12:57:08 INFO  time: compiled fp_design in 2.44s
+2021.02.22 12:57:26 INFO  compiling fp_design (1 scala source)
+2021.02.22 12:57:26 INFO  time: compiled fp_design in 0.79s
+2021.02.22 12:58:35 INFO  compiling fp_design (1 scala source)
+2021.02.22 12:58:36 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.02.22 12:58:36 INFO  time: compiled fp_design in 1.24s
+2021.02.22 13:22:48 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:22:48 INFO  time: compiled fp_design in 0.44s
+2021.02.22 13:23:56 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:23:56 INFO  time: compiled fp_design in 0.21s
+2021.02.22 13:24:13 INFO  /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:11:3: stale bloop error: identifier expected but 'return' found.
+	@return returns the current simulated times in the form of an integer
+  ^
+2021.02.22 13:24:13 INFO  /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:11:3: stale bloop error: identifier expected but 'return' found.
+	@return returns the current simulated times in the form of an integer
+  ^
+2021.02.22 13:24:17 INFO  /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:11:3: stale bloop error: identifier expected but 'return' found.
+	@return returns the current simulated times in the form of an integer
+  ^
+2021.02.22 13:24:17 INFO  /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:11:3: stale bloop error: identifier expected but 'return' found.
+	@return returns the current simulated times in the form of an integer
+  ^
+2021.02.22 13:24:17 INFO  /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:11:3: stale bloop error: identifier expected but 'return' found.
+	@return returns the current simulated times in the form of an integer
+  ^
+2021.02.22 13:24:17 INFO  /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:11:3: stale bloop error: identifier expected but 'return' found.
+	@return returns the current simulated times in the form of an integer
+  ^
+2021.02.22 13:24:19 INFO  /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:11:3: stale bloop error: identifier expected but 'return' found.
+	@return returns the current simulated times in the form of an integer
+  ^
+2021.02.22 13:24:19 INFO  /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:11:3: stale bloop error: identifier expected but 'return' found.
+	@return returns the current simulated times in the form of an integer
+  ^
+2021.02.22 13:24:24 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:24:27 INFO  time: compiled fp_design in 2.74s
+2021.02.22 13:24:27 INFO  compiling fp_design (2 scala sources)
+2021.02.22 13:24:27 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.02.22 13:24:27 INFO  time: compiled fp_design in 0.84s
+2021.02.22 13:25:20 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:25:22 INFO  time: compiled fp_design in 2.11s
+2021.02.22 13:25:39 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:25:40 INFO  time: compiled fp_design in 1.66s
+2021.02.22 13:26:48 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:26:48 WARN  failed to generate semanticdb for /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:
+/home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:10: error: Non-zero integral values may not have a leading zero.
+	private var curtime = 0777
+                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:962)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:978)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:400)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:402)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:253)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1111)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:158)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:952)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:337)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScalametaParser.scannerTokens$lzycompute(ScalametaParser.scala:275)
+	at scala.meta.internal.parsers.ScalametaParser.scannerTokens(ScalametaParser.scala:275)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:156)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$254.apply(ScalametaParser.scala:4788)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:11)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:196)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:401)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1515)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1499)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1491)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1626)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:148)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:123)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:35)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:252)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:121)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:94)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:142)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:160)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:72)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:71)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:160)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+2021.02.22 13:26:48 INFO  time: compiled fp_design in 0.75s
+Feb 22, 2021 1:27:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:10: error: Non-zero integral values may not have a leading zero.
+	private var curtime = 0777
+                       ^
+java.util.concurrent.CompletionException: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:10: error: Non-zero integral values may not have a leading zero.
+	private var curtime = 0777
+                       ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala:10: error: Non-zero integral values may not have a leading zero.
+	private var curtime = 0777
+                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:962)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:978)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:400)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:402)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:253)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:193)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.parseStat(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.parseStats(ScalaToplevelMtags.scala:57)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:52)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:37)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:80)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:186)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:150)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:150)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:145)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1219)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+2021.02.22 13:27:02 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:27:04 INFO  time: compiled fp_design in 1.48s
+2021.02.22 13:27:39 INFO  shutting down Metals
+2021.02.22 13:27:39 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.02.22 13:27:39 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Feb 22, 2021 1:27:42 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.02.22 13:37:12 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/fp_design' for client sublime.
+2021.02.22 13:37:16 INFO  time: initialize in 3.21s
+2021.02.22 13:37:18 INFO  Attempting to connect to the build server...
+2021.02.22 13:37:18 INFO  Selected port 5031
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6278761225854008411/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.02.22 13:37:18 WARN  no build target for: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala
+Feb 22, 2021 1:37:18 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Feb 22, 2021 1:37:18 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+2021.02.22 13:37:18 INFO  skipping build import with status 'Installed'
+Feb 22, 2021 1:37:18 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6278761225854008411/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6278761225854008411/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 13:37:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 13:37:19 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7883108961457828835/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7883108961457828835/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7883108961457828835/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 13:37:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 13:37:19 INFO  time: connected to build server in 1.49s
+2021.02.22 13:37:19 INFO  Connected to Build server v1.4.6-15-209c2a5c
+Feb 22, 2021 1:37:19 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.02.22 13:37:20 INFO  time: imported build in 0.14s
+2021.02.22 13:37:20 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.02.22 13:37:24 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.02.22 13:37:26 INFO  time: indexed workspace in 6.5s
+2021.02.22 13:38:04 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:38:06 INFO  time: compiled fp_design in 1.73s
+2021.02.22 13:46:09 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:46:10 INFO  time: compiled fp_design in 1.2s
+2021.02.22 13:46:10 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:46:10 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.02.22 13:46:10 INFO  time: compiled fp_design in 0.35s
+2021.02.22 13:49:05 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:49:07 INFO  time: compiled fp_design in 1.33s
+2021.02.22 13:51:14 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:51:16 INFO  time: compiled fp_design in 1.31s
+2021.02.22 13:51:45 INFO  compiling fp_design (1 scala source)
+2021.02.22 13:51:47 INFO  time: compiled fp_design in 1.39s
+2021.02.22 13:58:16 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.02.22 13:58:16 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...2021.02.22 13:58:16 INFO  Shut down connection with build server.
+
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+Feb 22, 2021 1:58:16 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.02.22 15:17:57 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/fp_design' for client sublime.
+2021.02.22 15:18:00 INFO  time: initialize in 2.92s
+2021.02.22 15:18:02 INFO  Attempting to connect to the build server...
+2021.02.22 15:18:02 INFO  Selected port 5031
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3713171167485314632/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.02.22 15:18:02 WARN  no build target for: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Gates.scala
+2021.02.22 15:18:02 WARN  no build target for: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala
+Feb 22, 2021 3:18:02 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Feb 22, 2021 3:18:02 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+Feb 22, 2021 3:18:02 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3713171167485314632/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3713171167485314632/bsp.socket...
+2021.02.22 15:18:02 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 15:18:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 15:18:02 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2379049153861562567/bsp.socket'...
+Waiting for the bsp connection to come up...
+Feb 22, 2021 3:18:03 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2379049153861562567/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2379049153861562567/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 15:18:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 15:18:03 INFO  time: connected to build server in 1.12s
+2021.02.22 15:18:03 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.02.22 15:18:03 INFO  time: imported build in 0.16s
+2021.02.22 15:18:03 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.02.22 15:18:08 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.02.22 15:18:08 INFO  time: indexed workspace in 5.55s
+2021.02.22 15:18:36 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:18:38 INFO  time: compiled fp_design in 1.9s
+2021.02.22 15:20:09 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:20:12 INFO  time: compiled fp_design in 2.22s
+2021.02.22 15:21:04 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:21:06 INFO  time: compiled fp_design in 1.53s
+2021.02.22 15:21:18 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:21:19 INFO  time: compiled fp_design in 1.31s
+2021.02.22 15:22:39 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:22:40 INFO  time: compiled fp_design in 1.38s
+2021.02.22 15:22:47 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:22:49 INFO  time: compiled fp_design in 1.79s
+2021.02.22 15:25:32 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.02.22 15:25:32 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.02.22 15:25:32 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Feb 22, 2021 3:25:33 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.02.22 15:33:27 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/fp_design' for client sublime.
+2021.02.22 15:33:30 INFO  time: initialize in 2.97s
+2021.02.22 15:33:32 INFO  Attempting to connect to the build server...
+2021.02.22 15:33:32 INFO  Selected port 5031
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher605232538336613965/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.02.22 15:33:32 WARN  no build target for: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/Simulation.scala
+Feb 22, 2021 3:33:32 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Feb 22, 2021 3:33:32 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+Feb 22, 2021 3:33:32 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+2021.02.22 15:33:32 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher605232538336613965/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher605232538336613965/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 15:33:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+Feb 22, 2021 3:33:33 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.02.22 15:33:33 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16818622947505880434/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16818622947505880434/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16818622947505880434/bsp.socket...
+2021.02.22 15:33:33 INFO  Started Metals http server at http://127.0.0.1:5031
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 15:33:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 15:33:33 INFO  time: connected to build server in 1.22s
+2021.02.22 15:33:33 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.02.22 15:33:33 INFO  time: imported build in 0.14s
+2021.02.22 15:33:39 INFO  shutting down Metals
+2021.02.22 15:33:39 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.02.22 15:33:39 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.02.22 15:33:39 WARN  Could not find java sources in None. Java symbols will not be available.
+Feb 22, 2021 3:33:40 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.02.22 15:36:41 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/fp_design' for client sublime.
+2021.02.22 15:36:44 INFO  time: initialize in 3.2s
+2021.02.22 15:36:47 INFO  Attempting to connect to the build server...
+2021.02.22 15:36:47 INFO  Selected port 5031
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7028313314862846612/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.02.22 15:36:47 WARN  no build target for: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/DiscreteEventTesting.scala
+Feb 22, 2021 3:36:47 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Feb 22, 2021 3:36:48 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+2021.02.22 15:36:48 INFO  skipping build import with status 'Installed'
+Feb 22, 2021 3:36:48 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7028313314862846612/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7028313314862846612/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 15:36:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+Feb 22, 2021 3:36:48 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.02.22 15:36:47 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3517188950418551588/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3517188950418551588/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3517188950418551588/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 15:36:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 15:36:48 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.02.22 15:36:48 INFO  time: connected to build server in 1.12s
+2021.02.22 15:36:48 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.02.22 15:36:48 INFO  time: imported build in 0.12s
+2021.02.22 15:36:53 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.02.22 15:36:53 INFO  time: indexed workspace in 5.18s
+2021.02.22 15:36:54 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:36:57 INFO  time: compiled fp_design in 3.35s
+2021.02.22 15:37:28 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:37:28 INFO  time: compiled fp_design in 0.72s
+2021.02.22 15:37:48 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:37:48 INFO  time: compiled fp_design in 0.93s
+2021.02.22 15:38:31 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:38:31 INFO  time: compiled fp_design in 0.12s
+2021.02.22 15:38:52 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:38:52 INFO  time: compiled fp_design in 0.22s
+2021.02.22 15:39:29 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:39:29 INFO  time: compiled fp_design in 0.83s
+2021.02.22 15:40:10 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:40:10 INFO  time: compiled fp_design in 0.13s
+2021.02.22 15:41:07 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:41:07 INFO  time: compiled fp_design in 0.13s
+2021.02.22 15:41:23 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:41:23 INFO  time: compiled fp_design in 0.96s
+2021.02.22 15:42:46 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:42:46 INFO  time: compiled fp_design in 0.97s
+2021.02.22 15:45:19 INFO  shutting down Metals
+2021.02.22 15:45:19 INFO  Shut down connection with build server.
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+2021.02.22 15:45:19 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Feb 22, 2021 3:45:19 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.02.22 15:47:17 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/fp_design' for client sublime.
+2021.02.22 15:47:20 INFO  time: initialize in 2.81s
+2021.02.22 15:47:21 INFO  Attempting to connect to the build server...
+2021.02.22 15:47:21 INFO  Selected port 5031
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12938533308546827489/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.02.22 15:47:22 WARN  no build target for: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/DiscreteEventTesting.scala
+Feb 22, 2021 3:47:22 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Feb 22, 2021 3:47:22 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+Feb 22, 2021 3:47:22 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+2021.02.22 15:47:22 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12938533308546827489/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12938533308546827489/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 15:47:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+Feb 22, 2021 3:47:22 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.02.22 15:47:22 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3805017203429651384/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3805017203429651384/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3805017203429651384/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 15:47:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 15:47:22 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.02.22 15:47:22 INFO  time: connected to build server in 1.12s
+2021.02.22 15:47:22 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.02.22 15:47:23 INFO  time: imported build in 0.13s
+2021.02.22 15:47:27 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.02.22 15:47:27 INFO  time: indexed workspace in 5.21s
+2021.02.22 15:50:15 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:50:16 INFO  time: compiled fp_design in 1.05s
+2021.02.22 15:50:51 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:50:51 INFO  time: compiled fp_design in 0.26s
+2021.02.22 15:51:08 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:51:08 INFO  time: compiled fp_design in 0.15s
+2021.02.22 15:51:30 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:51:30 INFO  time: compiled fp_design in 0.42s
+2021.02.22 15:52:41 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:52:41 INFO  time: compiled fp_design in 0.19s
+2021.02.22 15:53:56 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:53:56 INFO  time: compiled fp_design in 0.26s
+Feb 22, 2021 3:54:16 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:17 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:17 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:17 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:18 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:28 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 22, 2021 3:54:28 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2021.02.22 15:54:35 INFO  compiling fp_design (2 scala sources)
+2021.02.22 15:54:35 INFO  time: compiled fp_design in 0.17s
+2021.02.22 15:54:54 INFO  compiling fp_design (2 scala sources)
+2021.02.22 15:54:54 INFO  time: compiled fp_design in 0.13s
+2021.02.22 15:55:44 INFO  compiling fp_design (2 scala sources)
+2021.02.22 15:55:44 INFO  time: compiled fp_design in 40ms
+2021.02.22 15:56:44 INFO  compiling fp_design (2 scala sources)
+2021.02.22 15:56:44 INFO  time: compiled fp_design in 0.1s
+2021.02.22 15:57:00 INFO  compiling fp_design (2 scala sources)
+2021.02.22 15:57:01 INFO  time: compiled fp_design in 1.1s
+2021.02.22 15:57:36 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:57:36 INFO  time: compiled fp_design in 0.92s
+2021.02.22 15:58:25 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:58:25 INFO  time: compiled fp_design in 0.91s
+2021.02.22 15:58:33 INFO  compiling fp_design (1 scala source)
+2021.02.22 15:58:34 INFO  time: compiled fp_design in 1.1s
+2021.02.22 15:58:43 INFO  shutting down Metals
+2021.02.22 15:58:43 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.02.22 15:58:43 INFO  Shut down connection with build server.
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+Feb 22, 2021 3:58:43 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.02.22 16:01:01 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/fp_design' for client sublime.
+2021.02.22 16:01:04 INFO  time: initialize in 2.97s
+2021.02.22 16:01:05 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+2021.02.22 16:01:05 INFO  Selected port 5031
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2359475912295740665/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.02.22 16:01:06 WARN  no build target for: /home/vitalis/repos/fp_design/src/main/scala/digital_circuits/DiscreteEventTesting.scala
+Feb 22, 2021 4:01:06 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Feb 22, 2021 4:01:06 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2359475912295740665/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2359475912295740665/bsp.socket...
+Feb 22, 2021 4:01:06 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+2021.02.22 16:01:06 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 16:01:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 16:01:06 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2861261126801078929/bsp.socket'...
+Waiting for the bsp connection to come up...
+Feb 22, 2021 4:01:06 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2861261126801078929/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2861261126801078929/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.02.22 16:01:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.02.22 16:01:06 INFO  time: connected to build server in 1.11s
+2021.02.22 16:01:06 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.02.22 16:01:06 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.02.22 16:01:06 INFO  time: imported build in 0.13s
+2021.02.22 16:01:11 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.02.22 16:01:11 INFO  time: indexed workspace in 4.92s
+2021.02.22 16:03:08 INFO  compiling fp_design (1 scala source)
+2021.02.22 16:03:08 INFO  time: compiled fp_design in 0.89s
+2021.02.22 16:09:26 INFO  shutting down Metals
+2021.02.22 16:09:26 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.02.22 16:09:27 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+Feb 22, 2021 4:09:27 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
