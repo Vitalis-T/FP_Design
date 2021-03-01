@@ -1,7 +1,8 @@
-package fp_design
-
+package fp_design.observer_pattern
+// Let's make BankAccount a Publisher
 class BankAccount extends Publisher {
 	private var balance: Int = 0
+
 	def currentBalance: Int = balance
 
   def deposit(amount: Int): Unit = 

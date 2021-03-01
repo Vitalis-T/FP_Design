@@ -1,4 +1,4 @@
-package fp_design
+package fp_design.observer_pattern
 
 trait Publisher {
 	private var subscribers: Set[Subscriber] = Set()
@@ -14,5 +14,5 @@ trait Publisher {
 }
 
 trait Subscriber {
-	def handler(pub: Publisher)
+	def handler(pub: Publisher): Unit
 }
